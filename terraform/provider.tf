@@ -14,7 +14,7 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Project     = "Jerney"
+      Project     = "Three-tier-project"
       Environment = var.environment
       ManagedBy   = "Terraform"
     }
